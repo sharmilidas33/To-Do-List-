@@ -57,7 +57,7 @@ const addTask=()=>{
     });
     const tasksCheck= document.querySelectorAll(".task-check");
     tasksCheck.forEach((checkBox)=>{
-        checkBox.onChane=()=>{
+        checkBox.onchange=()=>{
             checkBox.nextElementSibling.classList.toggle("completed");
             if(checkBox.checked){
                 taskCount-=1;
