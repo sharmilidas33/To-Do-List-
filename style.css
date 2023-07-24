@@ -73,3 +73,7 @@ body{
     align-items: center;
     cursor: pointer;
 }
+.task .taskname.completed  {
+    text-decoration: line-through;
+    color: #888;
+}
